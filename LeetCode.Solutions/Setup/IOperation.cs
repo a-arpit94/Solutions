@@ -1,4 +1,4 @@
-﻿namespace LeetCode.Solutions.Easy
+﻿namespace LeetCode.Solutions.Setup
 {
     public interface IOperation
     {

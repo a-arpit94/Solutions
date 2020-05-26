@@ -1,6 +1,7 @@
-﻿using System;
+﻿using LeetCode.Solutions.Setup;
+using System;
 
-namespace LeetCode.Solutions.Easy
+namespace LeetCode.Solutions.Easy.LeetArray
 {
     public class Best_Time_to_Buy_and_Sell_Stock : IOperation
     {

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using LeetCode.Solutions.Setup;
+using System;
 
 namespace LeetCode.Solutions.Easy.LeetStrings
 {

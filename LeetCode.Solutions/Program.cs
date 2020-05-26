@@ -1,7 +1,6 @@
-﻿using LeetCode.Solutions.Easy;
-using LeetCode.Solutions.Easy.LeetArray;
-using LeetCode.Solutions.Easy.LeetLinkedList;
-using LeetCode.Solutions.Easy.LeetStrings;
+﻿using LeetCode.Solutions.Easy.LeetLinkedList;
+using LeetCode.Solutions.GFG.LinkedList;
+using LeetCode.Solutions.Setup;
 using System;
 
 namespace LeetCode.Solutions

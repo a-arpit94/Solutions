@@ -7,32 +7,27 @@ namespace LeetCode.Solutions.Easy.LeetLinkedList
         public void Execute(DataTypes dataTypes)
         {
             dataTypes.listNode = new ListNode(1);
-            //dataTypes.listNode.next = new ListNode(2);
-            //dataTypes.listNode.next.next = new ListNode(3);
-            //dataTypes.listNode.next.next.next = new ListNode(4);
-            //dataTypes.listNode.next.next.next.next = new ListNode(5);
+            dataTypes.listNode.next = new ListNode(2);
+            dataTypes.listNode.next.next = new ListNode(3);
+            dataTypes.listNode.next.next.next = new ListNode(4);
+            dataTypes.listNode.next.next.next.next = new ListNode(5);
             Print.printAllLinkedListNodes(ReverseList(dataTypes.listNode));
         }
 
         public ListNode ReverseList(ListNode head)
         {
-            ListNode first = head.next;
-            if (first == null)
-                return head;
-            if (first.next == null)
+            ListNode previous = null, current = head;
+
+            while (current != null)
             {
-                first.next = head;
-                head.next = null;
-                return first;
+                var second = current.next;
+                current.next = previous;
+                previous = current;
+                current = second;
             }
-            else
-            {
-                while (head != null)
-                {
-                    head.next = head;
-                }
-            }
-            return first;
+
+            head = previous;
+            return head;
         }
     }
 }

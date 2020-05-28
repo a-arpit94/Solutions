@@ -1,8 +1,8 @@
-﻿using LeetCode.Solutions.Setup;
+﻿using Common.Setup;
 
-namespace LeetCode.Solutions.GFG.LinkedList
+namespace GeeksForGeeks.Solutions.LinkedList
 {
-    class Rotate_The_LinkedList : IOperation
+    class RotateTheLinkedList : IOperation
     {
         public void Execute(DataTypes dataTypes)
         {

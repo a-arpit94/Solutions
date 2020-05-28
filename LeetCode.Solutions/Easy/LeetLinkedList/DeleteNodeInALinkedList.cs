@@ -1,9 +1,8 @@
-﻿
-using LeetCode.Solutions.Setup;
+﻿using Common.Setup;
 
 namespace LeetCode.Solutions.Easy.LeetLinkedList
 {
-    public class Delete_Node_in_a_Linked_List : IOperation
+    public class DeleteNodeInALinkedList : IOperation
     {
         public void Execute(DataTypes dataTypes)
         {

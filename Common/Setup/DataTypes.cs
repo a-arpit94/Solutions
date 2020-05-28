@@ -1,4 +1,4 @@
-﻿namespace LeetCode.Solutions.Setup
+﻿namespace Common.Setup
 {
     public class DataTypes
     {

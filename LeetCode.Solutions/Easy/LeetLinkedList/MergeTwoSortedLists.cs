@@ -1,4 +1,4 @@
-﻿using LeetCode.Solutions.Setup;
+﻿using Common.Setup;
 
 namespace LeetCode.Solutions.Easy.LeetLinkedList
 {
@@ -42,7 +42,7 @@ namespace LeetCode.Solutions.Easy.LeetLinkedList
                 }
                 output = output.next;
             }
-            
+
             while (l1 != null)
             {
                 output.next = l1;

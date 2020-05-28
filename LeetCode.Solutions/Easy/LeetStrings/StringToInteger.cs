@@ -1,9 +1,9 @@
-﻿using LeetCode.Solutions.Setup;
+﻿using Common.Setup;
 using System;
 
 namespace LeetCode.Solutions.Easy.LeetStrings
 {
-    public class String_to_Integer : IOperation
+    public class StringToInteger : IOperation
     {
         public void Execute(DataTypes dataTypes)
         {

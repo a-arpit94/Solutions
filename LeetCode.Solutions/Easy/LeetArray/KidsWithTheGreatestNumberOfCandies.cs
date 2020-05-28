@@ -1,10 +1,10 @@
-﻿using LeetCode.Solutions.Setup;
+﻿using Common.Setup;
 using System;
 using System.Collections.Generic;
 
 namespace LeetCode.Solutions.Easy.LeetArray
 {
-    public class Kids_With_the_Greatest_Number_of_Candies : IOperation
+    public class KidsWithTheGreatestNumberOfCandies : IOperation
     {
         /*
          * Input: candies = [2,3,5,1,3], extraCandies = 3

@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Common\Common.csproj" />
+    <ProjectReference Include="..\GeeksForGeeks.Solutions\GeeksForGeeks.Solutions.csproj" />
+    <ProjectReference Include="..\HackerRank.Solutions\HackerRank.Solutions.csproj" />
+    <ProjectReference Include="..\LeetCode.Solutions\LeetCode.Solutions.csproj" />
+  </ItemGroup>
+
+</Project>

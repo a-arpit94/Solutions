@@ -1,10 +1,10 @@
-﻿using LeetCode.Solutions.Setup;
-using System;
+﻿using System;
 using System.Collections.Generic;
+using Common.Setup;
 
 namespace LeetCode.Solutions.Easy.LeetArray
 {
-    public class Create_Target_Array_in_the_Given_Order : IOperation
+    public class CreateTargetArrayInTheGivenOrder : IOperation
     {
         /*
          * Input: nums = [0,1,2,3,4], index = [0,1,2,2,1]

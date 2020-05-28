@@ -1,5 +1,4 @@
-﻿
-namespace LeetCode.Solutions.Setup
+﻿namespace Common.Setup
 {
     public static class Print
     {

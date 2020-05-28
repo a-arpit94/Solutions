@@ -1,9 +1,9 @@
-﻿using LeetCode.Solutions.Setup;
-using System;
+﻿using System;
+using Common.Setup;
 
 namespace LeetCode.Solutions.Easy.LeetArray
 {
-    public class Best_Time_to_Buy_and_Sell_Stock : IOperation
+    public class BestTimeToBuyAndSellStock : IOperation
     {
 
         /*  Input: [7,1,5,3,6,4]

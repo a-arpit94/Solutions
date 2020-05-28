@@ -2,7 +2,7 @@
 
 namespace LeetCode.Solutions.Easy.LeetLinkedList
 {
-    class PalindromeLinkedList : IOperation
+    public class PalindromeLinkedList : IOperation
     {
         public void Execute(DataTypes dataTypes)
         {

@@ -1,9 +1,8 @@
 ﻿using Common.Setup;
-using LeetCode.Solutions.Setup;
 
 namespace LeetCode.Solutions.Easy.LeetLinkedList
 {
-    class RemoveNthNodeFromEndOfList : IOperation
+    public class RemoveNthNodeFromEndOfList : IOperation
     {
         /*Given linked list: 1->2->3->4->5, and n = 2.
         After removing the second node from the end, the linked list becomes 1->2->3->5.

@@ -3,7 +3,7 @@ using Common.Setup;
 
 namespace GeeksForGeeks.Solutions.LinkedList
 {
-    class FindingMiddleElementInLinkedList : IOperation
+    public class FindingMiddleElementInLinkedList : IOperation
     {
         public void Execute(DataTypes dataTypes)
         {

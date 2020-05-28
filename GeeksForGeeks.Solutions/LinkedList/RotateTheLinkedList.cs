@@ -2,7 +2,7 @@
 
 namespace GeeksForGeeks.Solutions.LinkedList
 {
-    class RotateTheLinkedList : IOperation
+    public class RotateTheLinkedList : IOperation
     {
         public void Execute(DataTypes dataTypes)
         {

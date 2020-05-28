@@ -2,7 +2,7 @@
 
 namespace LeetCode.Solutions.Easy.LeetLinkedList
 {
-    public class Reverse_Linked_List : IOperation
+    public class ReverseLinkedList : IOperation
     {
         public void Execute(DataTypes dataTypes)
         {

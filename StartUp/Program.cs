@@ -3,6 +3,7 @@ using System;
 using LeetCode.Solutions.Easy.LeetLinkedList;
 using GeeksForGeeks.Solutions;
 using GeeksForGeeks.Solutions.LinkedList;
+using HackerRank.Solutions.WarmUpChallenges;
 
 namespace StartUp
 {
@@ -11,7 +12,7 @@ namespace StartUp
         static void Main()
         {
             Console.WriteLine("Hello LeetCode!");
-            IOperation operation = new FindingMiddleElementInLinkedList();
+            IOperation operation = new CountingValleys();
 
             CallMethod(operation);
         }

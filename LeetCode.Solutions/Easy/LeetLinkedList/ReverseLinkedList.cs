@@ -7,10 +7,15 @@ namespace LeetCode.Solutions.Easy.LeetLinkedList
         public void Execute(DataTypes dataTypes)
         {
             dataTypes.listNode = new ListNode(1);
-            dataTypes.listNode.next = new ListNode(2);
-            dataTypes.listNode.next.next = new ListNode(3);
-            dataTypes.listNode.next.next.next = new ListNode(4);
-            dataTypes.listNode.next.next.next.next = new ListNode(5);
+            dataTypes.listNode.pushNode(new ListNode(2));
+            dataTypes.listNode.pushNode(new ListNode(3));
+            dataTypes.listNode.pushNode(new ListNode(4));
+            dataTypes.listNode.pushNode(new ListNode(5));
+                
+            //dataTypes.listNode.next = new ListNode(2);
+            //dataTypes.listNode.next.next = new ListNode(3);
+            //dataTypes.listNode.next.next.next = new ListNode(4);
+            //dataTypes.listNode.next.next.next.next = new ListNode(5);
             Print.printAllLinkedListNodes(ReverseList(dataTypes.listNode));
         }
 

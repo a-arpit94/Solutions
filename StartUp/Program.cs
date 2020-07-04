@@ -6,6 +6,7 @@ using GeeksForGeeks.Solutions.LinkedList;
 using HackerRank.Solutions.WarmUpChallenges;
 using LeetCode.Solutions.Easy.LeetDP;
 using LeetCode.Solutions.Easy.LeetMath;
+using LeetCode.Solutions.Easy.LeetOthers;
 using LeetCode.Solutions.Easy.LeetTrees;
 
 namespace StartUp
@@ -15,7 +16,7 @@ namespace StartUp
         static void Main()
         {
             Console.WriteLine("Hello LeetCode!");
-            IOperation operation = new RomanToInteger();
+            IOperation operation = new MissingNumber();
 
             CallMethod(operation);
         }

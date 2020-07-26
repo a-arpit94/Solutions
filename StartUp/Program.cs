@@ -1,5 +1,6 @@
 ﻿using Common.Setup;
 using System;
+using Companies.Solutions.Icertis;
 using LeetCode.Solutions.Easy.LeetLinkedList;
 using GeeksForGeeks.Solutions;
 using GeeksForGeeks.Solutions.LinkedList;
@@ -16,7 +17,7 @@ namespace StartUp
         static void Main()
         {
             Console.WriteLine("Hello LeetCode!");
-            IOperation operation = new MissingNumber();
+            IOperation operation = new LinesProcList();
 
             CallMethod(operation);
         }
